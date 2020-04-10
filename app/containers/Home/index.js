@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import withStyles from "isomorphic-style-loader/withStyles";
 import { Link } from "react-router-dom";
-import styles from "./styles.less";
+import styles from "./styles.css";
 import { useSelector } from "react-redux";
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
       <div className={styles.subtitle}>Title</div>
       <Link to={`/create`}>Create</Link>
       <div className={styles.subtitle}>Text: {text}</div>
+      <Link to={`/settings`}>Settings</Link>
     </div>
   );
 };

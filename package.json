@@ -1,5 +1,5 @@
 {
-  "name": "Qognify App",
+  "name": "Qognify",
   "version": "1.0.0",
   "description": "Server Side Rendering Qognify",
   "engines": {
@@ -36,8 +36,6 @@
     "html-webpack-plugin": "2.29.0",
     "immutable": "3.8.1",
     "isomorphic-style-loader": "^5.1.0",
-    "less": "^2.7.3",
-    "less-loader": "^4.0.5",
     "localStorage": "^1.0.4",
     "lodash": "^4.17.15",
     "mini-create-react-context": "^0.3.2",
@@ -89,7 +87,6 @@
     "file-loader": "0.11.1",
     "html-loader": "0.4.5",
     "lint-staged": "3.5.1",
-    "postcss-loader": "^3.0.0",
     "pre-commit": "1.2.2",
     "progress-bar-webpack-plugin": "^1.11.0",
     "rimraf": "2.6.1",
