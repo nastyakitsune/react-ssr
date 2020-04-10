@@ -59,7 +59,7 @@ module.exports = (options) => ({
         ],
       },
       {
-        test: /\.(jpg|eot|svg|otf|ttf|woff|woff2)$/,
+        test: /\.(jpe?g|png|eot|svg|otf|ttf|woff|woff2)$/,
         use: "file-loader",
       },
       {
