@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   entry: "./src/app.js",
-  mode: "development",
+  mode: "production",
   output: {
     path: path.join(__dirname, "../../build"),
     filename: "[hash].js",
