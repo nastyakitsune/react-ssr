@@ -1,0 +1,12 @@
+{
+  "presets": [["@babel/preset-env", { "targets": { "node": "current" } }], "@babel/preset-react"],
+  "plugins": [
+    [
+      "css-modules-transform",
+      {
+        "extractCss": "./src/styles/styles.css",
+        "generateScopedName": "[hash:base64:5]"
+      }
+    ]
+  ]
+}
