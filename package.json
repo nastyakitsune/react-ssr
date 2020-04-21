@@ -1,5 +1,5 @@
 {
-  "name": "react-server-side",
+  "name": "react-ssr",
   "version": "1.0.0",
   "description": "React Server Side App - done right",
   "scripts": {
